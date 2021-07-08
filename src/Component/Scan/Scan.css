@@ -1,0 +1,22 @@
+.scan {
+  margin: 0%;
+  text-align: center;
+  padding: 130px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+.scan-pic {
+  width: 500px;
+  box-sizing: border-box;
+  margin: 20px;
+  height: 300px;
+}
+.scan-para {
+  padding: 40px 30px 0px 40px;
+}
+.scan-list {
+  padding-left: 30px;
+}
+.success {
+  margin-left: 10px;
+}
