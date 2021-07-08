@@ -47,7 +47,6 @@ const Nav = () => {
               >
                 <li class="dropdown">
                   <a
-                    href="#"
                     class="dropdown-toggle"
                     data-toggle="dropdown"
                     role="button"
@@ -65,7 +64,7 @@ const Nav = () => {
                       <li>Scan</li>
                     </NavLink>
                     <NavLink
-                      to=""
+                      to="/lab"
                       className="main"
                       activeClassName="main-nav-active"
                     >
