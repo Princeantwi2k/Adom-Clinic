@@ -1,0 +1,21 @@
+.update {
+  margin-bottom: 20px;
+  width: 350px;
+  margin-left: 90px;
+}
+.updates {
+  margin-bottom: 20px;
+  width: 350px;
+  margin-left: 90px;
+  height: 300px;
+}
+.para-updates {
+  padding: 20px;
+  color: white;
+}
+.latest-updates {
+  background-image: url(../../image/doctors.jpg);
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: blueviolet;
+}
