@@ -1,0 +1,13 @@
+body {
+  font: 2.3em sans-serif;
+}
+.about {
+  margin: 0%;
+  text-align: center;
+  padding: 130px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+.abouts {
+  margin: 1px;
+}
