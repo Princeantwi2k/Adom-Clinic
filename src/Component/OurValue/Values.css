@@ -1,6 +1,6 @@
 .OurValue {
   padding: 50px;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
   margin: 50px;
 }
@@ -8,19 +8,10 @@
   animation-name: change;
   animation-duration: 1s;
 }
-@keyframes change {
-  0% {
-    background-color: blueviolet;
-  }
-  50% {
-    background-color: red;
-  }
-  100% {
-    background-color: aqua;
-  }
-}
+
 .font {
   font-size: 70px;
+  margin-left: 150px;
 }
 
 .service {
@@ -38,6 +29,7 @@
   color: white;
   text-decoration-color: tomato;
   padding: 10px;
+  text-align: center;
 }
 .line {
   margin: auto;
@@ -46,5 +38,5 @@
   height: 3px;
 }
 .pargraph {
-  padding-top: 60px;
+  padding: 5px;
 }
