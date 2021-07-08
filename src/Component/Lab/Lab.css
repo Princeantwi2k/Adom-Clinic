@@ -1,0 +1,18 @@
+.lab {
+  margin: 0%;
+  text-align: center;
+  padding: 130px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+.lab-pic {
+  width: 500px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+.lab-para {
+  padding: 40px 30px 0px 40px;
+}
+.lab-lists {
+  padding-left: 20px;
+}
