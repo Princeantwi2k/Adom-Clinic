@@ -72,7 +72,7 @@ const Nav = () => {
                       <li>laboratory</li>
                     </NavLink>
                     <NavLink
-                      to=""
+                      to="/health"
                       className="main"
                       activeClassName="main-nav-active"
                     >
