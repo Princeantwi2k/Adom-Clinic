@@ -1,0 +1,50 @@
+.OurValue {
+  padding: 50px;
+  margin-top: 40px;
+  text-align: center;
+  margin: 50px;
+}
+.family {
+  animation-name: change;
+  animation-duration: 1s;
+}
+@keyframes change {
+  0% {
+    background-color: blueviolet;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: aqua;
+  }
+}
+.font {
+  font-size: 70px;
+}
+
+.service {
+  border: 2px solid black;
+  height: 300px;
+  box-shadow: lawngreen;
+  margin-right: 20px;
+  box-sizing: initial;
+  background-color: red;
+  color: white;
+  margin: 20px;
+  align-items: center;
+}
+.head-topic {
+  color: white;
+  text-decoration-color: tomato;
+  padding: 10px;
+}
+.line {
+  margin: auto;
+  background-color: white;
+  width: 40px;
+  height: 3px;
+}
+.pargraph {
+  padding-top: 60px;
+}
