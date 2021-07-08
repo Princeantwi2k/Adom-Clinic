@@ -1,0 +1,59 @@
+.foot {
+  margin-top: 10px;
+  background-color: #ca1717;
+}
+.log {
+  float: left;
+  text-shadow: yellow;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 0px 0px 30px 0px;
+  background-color: aqua;
+  padding: 8px;
+  margin: 10px;
+  box-shadow: 20px 0px blueviolet;
+}
+.parah {
+  padding-top: 70px;
+  color: white;
+  transition: 1s;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.email {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+.para {
+  color: white;
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.list {
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding: 0;
+}
+ul li {
+  display: inherit;
+  padding: 5px;
+}
+ul li a {
+  text-decoration: none !important;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
