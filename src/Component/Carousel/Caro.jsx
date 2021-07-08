@@ -10,7 +10,7 @@ const Caro = () => {
     <div>
       <div
         id="carousel-example-generic"
-        className="carousel slide"
+        className="carousel slide col-xs-12 col-sm-12 col-md-12 col-lg-12"
         data-ride="carousel"
       >
         <ol className="carousel-indicators">
@@ -26,10 +26,7 @@ const Caro = () => {
         <div className="carousel-inner caro" role="listbox">
           <div className="item active pic">
             <img src={pic} alt="nurse" />
-            <div className="carousel-caption text">
-              <h1>we are always avaliable</h1>
-              <button className="btn btn-primary btn-lg">About us</button>
-            </div>
+            <div className="carousel-caption text"></div>
           </div>
           <div className="item">
             <img src={pic1} alt="nurse" />
