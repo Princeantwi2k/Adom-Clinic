@@ -57,7 +57,7 @@ const Nav = () => {
                   </a>
                   <ul class="dropdown-menu">
                     <NavLink
-                      to="/service"
+                      to="/scan"
                       className="main"
                       activeClassName="main-nav-active"
                     >
