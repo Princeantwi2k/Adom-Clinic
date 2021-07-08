@@ -11,19 +11,24 @@
   padding: 20px;
   height: 100px;
   text-align: center;
+  margin-left: 120px;
 }
 .icon-lebel {
   color: blueviolet;
   padding: 50px;
+  text-align: center;
 }
 .head-tags {
   text-align: center;
   padding: 30px;
-  margin: 50px;
+  margin: 5px;
 }
 .icon-line {
   margin: auto;
   height: 3px;
   width: 50px;
   background-color: blueviolet;
+}
+.buttom {
+  margin-left: 120px;
 }
