@@ -5,6 +5,7 @@ import Service from './Service/Service';
 import Footer from './Component/Footer/Footer';
 import Contact from './Contact/Contact';
 import Health from './Component/Health/Health';
+import Lab from './Component/Lab/Lab';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
     <Route path="/service" component={Service} />
     <Route path="/contact" component={Contact} />
     <Route path="/health" component={Health} />
+    <Route path="/lab" component={Lab} />
     </Switch>
     <Footer />
     </div>
