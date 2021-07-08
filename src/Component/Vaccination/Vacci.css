@@ -1,0 +1,33 @@
+.vacci {
+  margin: 0%;
+  text-align: center;
+  padding: 130px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+.nurse {
+  padding: 100px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: none;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.page1 {
+  padding: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 20px;
+  list-style: upper-roman;
+}
+.list {
+  padding: 8px;
+  margin-bottom: 7px;
+  margin-right: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: black;
+}
