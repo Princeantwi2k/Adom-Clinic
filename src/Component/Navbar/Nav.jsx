@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./Nav.css";
 
@@ -22,19 +22,29 @@ const Nav = () => {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">
-                Brand
-              </a>
+              <h1 className="title">Adom Clinic</h1>
             </div>
 
             <ul class="nav navbar-nav navbar-right">
-              <Link to="/">
+              <NavLink
+                to="/"
+                className="main-nav"
+                activeClassName="main-nav-active"
+              >
                 <li>Home</li>
-              </Link>
-              <Link to="/about">
+              </NavLink>
+              <NavLink
+                to="/about"
+                className="main-nav"
+                activeClassName="main-nav-active"
+              >
                 <li>About Us</li>
-              </Link>
-              <Link>
+              </NavLink>
+              <NavLink
+                to="/service"
+                className="main-nav"
+                activeClassName="main-nav-active"
+              >
                 <li class="dropdown">
                   <a
                     href="#"
@@ -47,23 +57,37 @@ const Nav = () => {
                     Service <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
-                    <Link to="/vacci">
-                      <li>vaccination</li>
-                    </Link>
-                    <Link>
+                    <NavLink
+                      to="/service"
+                      className="main"
+                      activeClassName="main-nav-active"
+                    >
+                      <li>Scan</li>
+                    </NavLink>
+                    <NavLink
+                      to=""
+                      className="main"
+                      activeClassName="main-nav-active"
+                    >
                       <li>laboratory</li>
-                    </Link>
-                    <Link to="">
-                      <li>Something </li>
-                    </Link>
+                    </NavLink>
+                    <NavLink
+                      to=""
+                      className="main"
+                      activeClassName="main-nav-active"
+                    >
+                      <li>Health </li>
+                    </NavLink>
                   </ul>
                 </li>
-              </Link>
-              <Link to="/contact">
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </Link>
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className="main-nav"
+                activeClassName="main-nav-active"
+              >
+                <li>contact</li>
+              </NavLink>
             </ul>
           </div>
         </nav>
