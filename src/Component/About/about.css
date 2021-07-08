@@ -8,6 +8,18 @@ body {
   background-color: blueviolet;
   color: cornsilk;
 }
-.abouts {
-  margin: 1px;
+.picture {
+  box-sizing: border-box;
+  padding: 100px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: none;
+  overflow: hidden;
+}
+.content {
+  padding-left: 50px;
+  padding-top: 50px;
 }
