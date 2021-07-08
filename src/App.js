@@ -6,6 +6,7 @@ import Footer from './Component/Footer/Footer';
 import Contact from './Contact/Contact';
 import Health from './Component/Health/Health';
 import Lab from './Component/Lab/Lab';
+import Scan from './Component/Scan/Scan';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
     <Route path="/contact" component={Contact} />
     <Route path="/health" component={Health} />
     <Route path="/lab" component={Lab} />
+    <Route path="/scan" component={Scan} /> 
     </Switch>
     <Footer />
     </div>
