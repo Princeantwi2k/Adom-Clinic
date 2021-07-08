@@ -1,0 +1,9 @@
+.caro {
+  height: 700px;
+}
+.pic {
+  position: relative;
+}
+.text {
+  position: absolute;
+}
