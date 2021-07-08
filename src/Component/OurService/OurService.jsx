@@ -31,7 +31,10 @@ const OurService = () => {
         <div className="  col-xs-12 col-sm-12 col-md-3 icon">
           <img src={icon2} alt="icon" className="icon-img" />
           <h4 className="icon-lebel"> AkaiLab - Laboratory</h4>
-          <button className="btn btn-danger buttom"> Learn more</button>
+          <button className="btn btn-danger buttom" href="#scan">
+            {" "}
+            Learn more
+          </button>
         </div>
         <div className="  col-xs-12 col-sm-12 col-md-1"></div>
       </div>
