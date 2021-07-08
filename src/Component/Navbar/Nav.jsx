@@ -47,7 +47,7 @@ const Nav = () => {
                     Service <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
-                    <Link>
+                    <Link to="/vacci">
                       <li>vaccination</li>
                     </Link>
                     <Link>
