@@ -1,0 +1,22 @@
+.health {
+  margin: 0%;
+  text-align: center;
+  padding: 130px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+.doc {
+  width: 400px;
+  box-sizing: border-box;
+  margin: 39px;
+}
+.health-para {
+  padding: 30px 60px 30px 60px;
+}
+.health-parah {
+  padding-left: 60px;
+  font-weight: bolder;
+}
+.lists {
+  padding-left: 100px;
+}
