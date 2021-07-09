@@ -14,8 +14,8 @@ class Footer extends Component {
       <div>
         <footer className="foot">
           <div className="row ">
-            <div className="col-xm-12 col-sm-6 col-md-1"></div>
-            <div className="col-xm-12 col-sm-6 col-md-3">
+            <div className="col-xm-6col-sm-6 col-md-1"></div>
+            <div className="col-xm-6 col-sm-6 col-md-3">
               <div className="log">ADOM CLINIC</div>
               <p className="parah"> Inspiring Better Health </p>
               <p className="para">phone: +233572211378</p>
