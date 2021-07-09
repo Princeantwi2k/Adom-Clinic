@@ -6,7 +6,7 @@ const Vacci = () => {
     <div>
       <h1 className="vacci">Adom Vaccination</h1>
       <div className="row">
-        <div className="col-xm-12 col-sm-12 col-md-6">
+        <div className="col-xs-6 col-sm-6 col-md-6">
           <p className="page1">
             Vaccinations for the following diseases are available at Adom
             Clinic:
@@ -35,7 +35,7 @@ const Vacci = () => {
             </li>
           </ul>
         </div>
-        <div className="col-xm-12 col-sm-12 col-md-6 nurse thumbnail">
+        <div className="col-xs-6 col-sm-6 col-md-6 nurse thumbnail">
           <img src={pic9} alt="nurse" />
         </div>
       </div>
