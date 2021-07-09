@@ -7,7 +7,7 @@ const Health = () => {
     <div>
       <h1 className="health">Health & Wellness</h1>
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-7">
+        <div className="col-xs-6 col-sm-6 col-md-7">
           <p className="health-para">
             Our Specialist Nutrition and Dietetic service provides world-class
             comprehensive diet therapy interventions and programmes for
@@ -19,7 +19,7 @@ const Health = () => {
             possible results for clients and patients
           </p>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-5">
+        <div className="col-xs-6 col-sm-6 col-md-5">
           <img src={doc} alt="doctor" className="doc" />
         </div>
       </div>
@@ -41,7 +41,7 @@ const Health = () => {
         a registered dietitian can be of help.
       </p>
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-6">
+        <div className="col-xs-6 col-sm-6 col-md-6">
           <ul>
             <li className="lists">Pre-diabetes and Diabetes</li>
             <li className="lists">High blood Cholesterol</li>
@@ -53,7 +53,7 @@ const Health = () => {
             <li className="lists">Eating disorders</li>
           </ul>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-6">
+        <div className="col-xs-6 col-sm-6 col-md-6">
           <ul>
             <li className="lists">Enteral Tube feeding</li>
             <li className="lists">Cancer</li>
