@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <div>
       <header>
-        <nav class="navbar navbar-default nav-head">
+        <nav class="navbar navbar-default nav-head col-xs-6 col-sm-6 col-md-12">
           <div class="container-fluid">
             <div class="navbar-header">
               <button
