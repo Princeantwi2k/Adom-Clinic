@@ -37,14 +37,14 @@ const Contact = () => {
               </h2>
             </div>
           </div>
-          <div className="col-md-12">
-            <div className="col-md-6">
+          <div className="col-xs-6 col-sm-6 col-md-12">
+            <div className="col-xs-6 col-sm-6 col-md-6">
               <h1 className="mind">Social</h1>
               <h5 className="dede">
                 Follow us and stay updated with all our work and coming offers !
               </h5>
             </div>
-            <div className="col-md-6 blade">
+            <div className="col-xs-6 col-sm-6 col-md-6 blade">
               <h2>
                 <i className="fa fa-instagram " aria-hidden="true">
                   <a href="" className="contact-email">
