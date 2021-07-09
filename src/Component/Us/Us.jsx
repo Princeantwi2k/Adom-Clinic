@@ -7,10 +7,10 @@ const Us = () => {
     <>
       <div class="row us">
         <div class="text-center"></div>
-        <div class="col-md-6">
+        <div class="col-xs-6 col-sm-6 col-md-6">
           <img src={pic5} class="img" />
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6 col-sm-6 col-md-6">
           <h2 className="topic"> Us</h2>
           <p className="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
