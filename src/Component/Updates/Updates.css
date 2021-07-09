@@ -1,13 +1,17 @@
 .update {
   margin-bottom: 20px;
-  width: 350px;
+  width: 300px;
   margin-left: 90px;
+  box-sizing: border-box;
+  background: cover;
 }
 .updates {
   margin-bottom: 20px;
-  width: 350px;
+  width: 300px;
   margin-left: 90px;
   height: 300px;
+  box-sizing: border-box;
+  background: cover;
 }
 .para-updates {
   padding: 20px;
