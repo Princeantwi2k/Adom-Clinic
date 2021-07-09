@@ -8,7 +8,7 @@ const About = () => {
       <h1 className="about">About Us</h1>
       <section>
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-6 content ">
+          <div className="col-xs-6 col-sm-6 col-md-6 content ">
             <p>
               The Adom Hospital was established in 1992 as a not-for-profit
               health facility to provide healthcare to SSNIT staff and their
@@ -17,7 +17,7 @@ const About = () => {
             <p>
               {" "}
               The facility was later upgraded into a full-fledge hospital to
-              extend its services to the general publi The Adom Hospital was
+              extend its services to the general public The Adom Hospital was
               incorporated in November, 2010 as The Adom Hospital Company
               Limited. We have three (3) Hospitals- The Adom Hospital, The Adom
               Specialist Hospital and The Adom Mother and Child Hospital and six
@@ -48,7 +48,7 @@ const About = () => {
               <li className="list">Pension House Ministries, Accra</li>
             </ul>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 Thumbnail">
+          <div className="col-xs-6 col-sm-6 col-md-6 Thumbnail">
             <h3 style={{ textAlign: `center`, paddingTop: `20px` }}>
               Our<span style={{ color: `blueviolet` }}> CEO</span>
             </h3>
