@@ -7,8 +7,8 @@ const Scan = () => {
     <div id="scan">
       <h1 className="scan">Adom Scan</h1>
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-2"></div>
-        <div className="col-xs-12 col-sm-12 col-md-4">
+        <div className="col-xs-6 col-sm-6 col-md-2"></div>
+        <div className="col-xs-6 col-sm-6 col-md-4">
           <p className="scan-para">
             Akai House Clinic operates its own Medical Imaging Centre, with
             current advanced capabilities on offer including:
@@ -18,14 +18,14 @@ const Scan = () => {
             <li>DIGITAL X-RAY</li>
           </ul>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-4">
+        <div className="col-xs-6 col-sm-6 col-md-4">
           <img src={scanpic} alt="pic" className="scan-pic" />
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-2"></div>
+        <div className="col-xs-6 col-sm-6 col-md-2"></div>
       </div>
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-2 "></div>
-        <div className="col-xs-12 col-sm-12 col-md-8 ">
+        <div className="col-xs-6 col-sm-6 col-md-2 "></div>
+        <div className="col-xs-6 col-sm-6 col-md-8 ">
           <h2>64-SLICE CT SCAN</h2>
           <p>
             Our VCT light-speed 64-slice CT scanner is the fastest available and
@@ -35,11 +35,11 @@ const Scan = () => {
             virtual colonoscopy in addition to regular CT scanning.
           </p>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-2 "></div>
+        <div className="col-xs-6 col-sm-6 col-md-2 "></div>
       </div>
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-2 "></div>
-        <div className="col-xs-12 col-sm-12 col-md-8 ">
+        <div className="col-xs-6 col-sm-6 col-md-2 "></div>
+        <div className="col-xs-6 col-sm-6 col-md-8 ">
           <h2>4D COLOUR DOPPLER ULTRASOUND</h2>
           <p>
             An Ultrasound scan involves taking pictures of the body using high
@@ -50,7 +50,7 @@ const Scan = () => {
             checkups or preventive screening.
           </p>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-2 "></div>
+        <div className="col-xs-6 col-sm-6 col-md-2 "></div>
       </div>
     </div>
   );
