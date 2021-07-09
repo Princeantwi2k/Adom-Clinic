@@ -76,3 +76,5 @@
     width: 100%;
   }
 }
+@media all and(device-width:375px) and(device-height:822px) and(orientation:portrait) {
+}
