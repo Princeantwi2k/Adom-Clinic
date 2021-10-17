@@ -1,9 +1,16 @@
 .dede {
   margin-top: 70px;
+  height: 100px;
+}
+.item {
+  height: 500px;
 }
 
 @media screen and (max-width: 480px) {
   .dede {
     margin-top: 70px;
+  }
+  .item {
+    height: 200px;
   }
 }
