@@ -16,3 +16,18 @@
 .lab-lists {
   padding-left: 30px;
 }
+@media screen and (max-width: 480px) {
+  .lab {
+    margin: 0%;
+    text-align: center;
+    padding: 130px;
+    background-color: blueviolet;
+    color: cornsilk;
+  }
+  .lab-pic {
+    width: 160px;
+    height: 190px;
+    box-sizing: border-box;
+    margin-top: 20%;
+  }
+}
