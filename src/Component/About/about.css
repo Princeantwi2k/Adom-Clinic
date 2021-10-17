@@ -9,17 +9,31 @@ body {
   color: cornsilk;
 }
 .picture {
-  box-sizing: border-box;
   padding: 100px;
   border: 1px solid #dee2e6;
-
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+  width: 100%;
   border: none;
   overflow: hidden;
 }
 .content {
   padding-left: 50px;
   padding-top: 50px;
+}
+@media screen and (max-width: 480px) {
+  .about {
+    margin: 0%;
+    text-align: center;
+    padding: 130px;
+    background-color: blueviolet;
+    color: cornsilk;
+  }
+
+  .tex {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .picture {
+    padding: 0px;
+  }
 }
