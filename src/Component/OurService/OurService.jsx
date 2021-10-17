@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import icon from "../../image/icon.png";
 import icon1 from "../../image/icon2.png";
 import icon2 from "../../image/icon3.png";
@@ -21,19 +22,30 @@ const OurService = () => {
         <div className=" col-xs-6 col-sm-6 col-md-3 icon">
           <img src={icon} alt="icon" className="icon-img" />
           <h4 className="icon-lebel"> Specialist Consultations</h4>
-          <button className="btn btn-danger buttom"> Learn more</button>
+          <button className="btn btn-danger buttom">
+            <Link to="/scan" className="ourlinks">
+              {" "}
+              Learn more
+            </Link>{" "}
+          </button>
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 icon">
           <img src={icon1} alt="icon" className="icon-img" />
           <h4 className="icon-lebel">Immigration Medicals</h4>
-          <button className="btn btn-danger buttom"> Learn more</button>
+          <button className="btn btn-danger buttom">
+            <Link to="/health" className="ourlinks">
+              {" "}
+              Learn more
+            </Link>{" "}
+          </button>
         </div>
         <div className="  col-xs-6 col-sm-6 col-md-3 icon">
           <img src={icon2} alt="icon" className="icon-img" />
-          <h4 className="icon-lebel"> AkaiLab - Laboratory</h4>
-          <button className="btn btn-danger buttom" href="#scan">
-            {" "}
-            Learn more
+          <h4 className="icon-lebel"> Adom - Laboratory</h4>
+          <button className="btn btn-danger buttom">
+            <Link to="/lab" className="ourlinks">
+              Learn more
+            </Link>
           </button>
         </div>
         <div className="  col-xs-6 col-sm-6 col-md-1"></div>

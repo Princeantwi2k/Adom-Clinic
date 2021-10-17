@@ -10,7 +10,7 @@
   padding: 20px;
   height: 100px;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 100px;
 }
 .icon-lebel {
   color: blueviolet;
@@ -33,8 +33,12 @@
   width: 50px;
   background-color: blueviolet;
 }
+.ourlinks {
+  color: white !important;
+  text-decoration: none !important;
+}
 .buttom {
-  margin-left: 120px;
+  margin-left: 100px;
 }
 @media screen and (max-width: 480px) {
   .our {
