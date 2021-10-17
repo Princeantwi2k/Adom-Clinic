@@ -23,3 +23,20 @@
   background-blend-mode: overlay;
   background-color: blueviolet;
 }
+@media screen and (max-width: 480px) {
+  .update {
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    background: cover;
+  }
+  .updates {
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 40px;
+    height: 300px;
+    box-sizing: border-box;
+    background: cover;
+  }
+}
