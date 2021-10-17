@@ -7,69 +7,60 @@ import "./Caro.css";
 
 const Caro = () => {
   return (
-    <div>
-      <div
-        id="carousel-example-generic"
-        className="carousel slide "
-        data-ride="carousel"
-      >
-        <ol className="carousel-indicators">
-          <li
-            data-target="#carousel-example-generic"
-            data-slide-to="0"
-            className="active"
-          ></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+    <div
+      id="carousel-example-generic"
+      className="carousel slide"
+      data-ride="carousel"
+    >
+      <ol className="carousel-indicators">
+        <li
+          data-target="#carousel-example-generic"
+          data-slide-to="0"
+          className="active"
+        ></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
 
-        <div
-          className="carousel-inner caro col-xs-6 col-sm-6 col-md-12 col-lg-12"
-          role="listbox"
-        >
-          <div className="item active pic">
-            <img src={pic} alt="nurse" />
-            <div className="carousel-caption text"></div>
-          </div>
-          <div className="item">
-            <img src={pic1} alt="nurse" />
-            <div className="carousel-caption">...</div>
-          </div>
-          <div className="item">
-            <img src={pic2} alt="nurse" className="img-responsive" />
-            <div className="carousel-caption">...</div>
-          </div>
-          <div className="item">
-            <img src={pic3} alt="nurse" />
-            <div className="carousel-caption">...</div>
-          </div>
+      <div className="carousel-inner carousel-content caro" role="listbox">
+        <div className="item active">
+          <img src={pic} className="dede" alt="pizza" />
         </div>
-
-        <a
-          className="left carousel-control"
-          href="#carousel-example-generic"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="glyphicon glyphicon-chevron-left"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="right carousel-control"
-          href="#carousel-example-generic"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="glyphicon glyphicon-chevron-right"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
+        <div className="item">
+          <img src={pic1} className="dede" alt="pizza" />
+        </div>
+        <div className="item">
+          <img src={pic2} className="dede" alt="pizza" />
+        </div>
+        <div className="item">
+          <img src={pic3} className="dede" alt="pizza" />
+        </div>
       </div>
+
+      <a
+        className="left carousel-control"
+        href="#carousel-example-generic"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          className="glyphicon glyphicon-chevron-left"
+          aria-hidden="true"
+        ></span>
+        <span className="sr-only">Previous</span>
+      </a>
+      <a
+        className="right carousel-control"
+        href="#carousel-example-generic"
+        role="button"
+        data-slide="next"
+      >
+        <span
+          className="glyphicon glyphicon-chevron-right"
+          aria-hidden="true"
+        ></span>
+        <span className="sr-only">Next</span>
+      </a>
     </div>
   );
 };
