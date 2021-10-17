@@ -1,96 +1,68 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Nav.css";
 
 const Nav = () => {
   return (
-    <div>
-      <header>
-        <nav class="navbar navbar-default nav-head col-xs-6 col-sm-6 col-md-12">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-                aria-expanded="false"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <h1 className="title">Adom Clinic</h1>
-            </div>
+    <div className="container-fluid ">
+      <nav className="navbar navbar-default navbar-fixed-top navbar-home">
+        <div className="container">
+          <div className="navbar-header">
+            <button
+              type="button"
+              className="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <h1>Adom clinic</h1>
+          </div>
 
-            <ul class="nav navbar-nav navbar-right">
-              <NavLink
-                to="/"
-                className="main-nav"
-                activeClassName="main-nav-active"
-              >
-                <li>Home</li>
-              </NavLink>
-              <NavLink
-                to="/about"
-                className="main-nav"
-                activeClassName="main-nav-active"
-              >
-                <li>About Us</li>
-              </NavLink>
-              <NavLink
-                to="/service"
-                className="main-nav"
-                activeClassName="main-nav-active"
-              >
-                <li class="dropdown">
-                  <a
-                    class="dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Service <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <NavLink
-                      to="/scan"
-                      className="main"
-                      activeClassName="main-nav-active"
-                    >
-                      <li>Scan</li>
-                    </NavLink>
-                    <NavLink
-                      to="/lab"
-                      className="main"
-                      activeClassName="main-nav-active"
-                    >
-                      <li>laboratory</li>
-                    </NavLink>
-                    <NavLink
-                      to="/health"
-                      className="main"
-                      activeClassName="main-nav-active"
-                    >
-                      <li>Health </li>
-                    </NavLink>
-                  </ul>
-                </li>
-              </NavLink>
-              <NavLink
-                to="/contact"
-                className="main-nav"
-                activeClassName="main-nav-active"
-              >
-                <li>contact</li>
-              </NavLink>
+          <div
+            className="collapse navbar-collapse nav-button"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul className="nav navbar-nav navbar-right nav-button">
+              <li>
+                <Link to="/" className="link">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="link">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/lab" className="link">
+                  Lab
+                </Link>
+              </li>
+              <li>
+                <Link to="/health" className="link">
+                  Health
+                </Link>
+              </li>
+              <li>
+                <Link to="/scan" className="link">
+                  Scan
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="link">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
     </div>
   );
 };
