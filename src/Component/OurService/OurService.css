@@ -45,8 +45,9 @@
     margin-left: 50px;
   }
   .head-tags {
+    margin: 20px 10px 20px 10px;
+    padding: 20px 0px 0px 0px;
     text-align: center;
-    padding: 10px;
   }
   .head-tag {
     text-align: center;
