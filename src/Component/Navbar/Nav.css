@@ -51,4 +51,7 @@ ul {
   .link {
     color: white !important;
   }
+  .icon-bar {
+    background-color: turquoise;
+  }
 }
