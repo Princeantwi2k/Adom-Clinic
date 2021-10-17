@@ -2,7 +2,6 @@
   border: 2px solid black;
   margin-right: 20px;
   background-color: aqua;
-  box-sizing: initial;
   height: 300px;
   margin: 20px;
 }
@@ -23,6 +22,11 @@
   padding: 30px;
   margin: 5px;
 }
+.head-tag {
+  text-align: center;
+  padding: 30px;
+  margin: 5px;
+}
 .icon-line {
   margin: auto;
   height: 3px;
@@ -31,4 +35,39 @@
 }
 .buttom {
   margin-left: 120px;
+}
+@media screen and (max-width: 480px) {
+  .our {
+    margin-left: 50px;
+  }
+  .head-tags {
+    text-align: center;
+    padding: 10px;
+  }
+  .head-tag {
+    text-align: center;
+    font-size: 10px;
+  }
+  .icon {
+    border: 2px solid black;
+    margin-left: 20px;
+    background-color: aqua;
+    box-sizing: initial;
+    height: 300px;
+  }
+  .icon-img {
+    font-size: 50px;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .icon-lebel {
+    color: blueviolet;
+    padding: 50px;
+    text-align: center;
+  }
+  .buttom {
+    margin-left: 50px;
+  }
 }

@@ -7,13 +7,13 @@ import "./OurService.css";
 const OurService = () => {
   return (
     <div>
-      <div className="row">
+      <div className="row our">
         <div className=" col-xs-6 col-sm-6 col-md-12">
           <h1 className="head-tags">
             OUR <span style={{ color: `blueviolet` }}>SERVICES</span>{" "}
           </h1>
           <div className="icon-line"></div>
-          <p className="head-tags">
+          <p className="head-tag">
             Adom Clinic offers a wide range of services to suit your needs
           </p>
         </div>
