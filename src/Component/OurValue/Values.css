@@ -11,7 +11,7 @@
 
 .font {
   font-size: 70px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .service {
@@ -19,7 +19,7 @@
   height: 300px;
   box-shadow: lawngreen;
   margin-right: 20px;
-
+  font-size: 16px;
   background-color: red;
   color: white;
   margin: 20px;
