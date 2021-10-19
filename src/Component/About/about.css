@@ -15,6 +15,9 @@ body {
   border: none;
   overflow: hidden;
 }
+.tex {
+  font-size: 16px;
+}
 .content {
   padding-left: 50px;
   padding-top: 50px;

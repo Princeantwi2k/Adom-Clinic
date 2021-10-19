@@ -25,7 +25,7 @@ const Scan = () => {
         <div className="row">
           <div className="col-xs-6 col-sm-6 col-md-8  scans">
             <h2 className="doppler">64-SLICE CT SCAN</h2>
-            <p>
+            <p className="tex">
               Our VCT light-speed 64-slice CT scanner is the fastest available
               and gives 3D colour images with greater definition than has been
               available in the past, and can therefore be used for cardiac
@@ -38,7 +38,7 @@ const Scan = () => {
         <div className="row">
           <div className="col-xs-6 col-sm-6 col-md-8 scans">
             <h2 className="doppler">4D COLOUR DOPPLER ULTRASOUND</h2>
-            <p>
+            <p className="tex">
               An Ultrasound scan involves taking pictures of the body using high
               frequency sound waves. Since ultrasound technology uses sound
               waves instead of ionizing radiation, there is no risk of over
