@@ -2,6 +2,7 @@ body {
   font: 2.3em sans-serif;
 }
 .about {
+  display: flex;
   margin: 0%;
   text-align: center;
   padding: 130px;
@@ -24,19 +25,11 @@ body {
 }
 @media screen and (max-width: 480px) {
   .about {
+    display: inline-block;
     margin: 0%;
     text-align: center;
     padding: 130px;
     background-color: blueviolet;
     color: cornsilk;
-  }
-
-  .tex {
-    margin-left: 10px;
-    font-size: 14px;
-  }
-
-  .picture {
-    padding: 0px;
   }
 }
