@@ -19,9 +19,9 @@ const Lab = () => {
         both local and international companies. We use data-processing systems
         to ensure that reports are delivered to clients on time.
       </p>
-      <div className="container">
+      <div className="container labComtent">
         <div className="row">
-          <div className="col-xs-6 col-sm-6 col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-6">
             <p className="lab-para">Our services include but not limited to:</p>
             <ul>
               <li className="lab-lists">
@@ -50,8 +50,13 @@ const Lab = () => {
               </li>
             </ul>
           </div>
-          <div className="col-xs-6 col-sm-6 col-md-6">
-            <img src={labpic} alt="lab" className="lab-pic" />
+          <div className="col-xs-12 col-sm-12 col-md-6">
+            <img
+              src={labpic}
+              alt="lab"
+              className="lab-pic"
+              data-aos="fade-up"
+            />
           </div>
         </div>
       </div>

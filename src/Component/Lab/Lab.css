@@ -27,9 +27,12 @@
     color: cornsilk;
   }
   .lab-pic {
-    width: 160px;
-    height: 190px;
+    width: 300px;
+    height: 300px;
     box-sizing: border-box;
     margin-top: 20%;
+  }
+  .labComtent {
+    display: inline-block;
   }
 }
