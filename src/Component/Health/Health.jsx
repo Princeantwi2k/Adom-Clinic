@@ -8,7 +8,7 @@ const Health = () => {
       <h1 className="health">Health & Wellness</h1>
       <div className="container">
         <div className="row">
-          <div className="col-xs-6 col-sm-6 col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-6">
             <p className="health-para">
               Our Specialist Nutrition and Dietetic service provides world-class
               comprehensive diet therapy interventions and programmes for
@@ -20,8 +20,13 @@ const Health = () => {
               to ensure the best possible results for clients and patients
             </p>
           </div>
-          <div className="col-xs-6 col-sm-6 col-md-6">
-            <img src={doc} alt="doctor" className="doc" />
+          <div className="col-xs-12 col-sm-12 col-md-6">
+            <img
+              src={doc}
+              alt="doctor"
+              className="doc"
+              data-aos="zoom-in-left"
+            />
           </div>
         </div>
       </div>
