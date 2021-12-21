@@ -8,7 +8,7 @@ const Scan = () => {
       <h1 className="scan">Adom Scan</h1>
       <div className="container">
         <div className="row">
-          <div className="col-xs-6 col-sm-6 col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-6">
             <p className="scan-para">
               Adom Clinic operates its own Medical Imaging Centre, with current
               advanced capabilities on offer including:
@@ -18,8 +18,13 @@ const Scan = () => {
               <li>DIGITAL X-RAY</li>
             </ul>
           </div>
-          <div className="col-xs-6 col-sm-6 col-md-6">
-            <img src={scanpic} alt="pic" className="scan-pic" />
+          <div className="col-xs-12 col-sm-12 col-md-6">
+            <img
+              src={scanpic}
+              alt="pic"
+              className="scan-pic"
+              data-aos="zoom-in-left"
+            />
           </div>
         </div>
         <div className="row">
