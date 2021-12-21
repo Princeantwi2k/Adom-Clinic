@@ -7,9 +7,9 @@ const About = () => {
     <div>
       <h1 className="about">About Us</h1>
       <section>
-        <div className="container-fliud">
+        <div className="container-fliud aboutContent">
           <div className="row">
-            <div className="col-xs-6 col-sm-6 col-md-6 content ">
+            <div className="col-xs-12 col-sm-12 col-md-6 content ">
               <p className="tex">
                 The Adom Hospital was established in 1992 as a not-for-profit
                 health facility to provide healthcare to SSNIT staff and their
@@ -49,11 +49,16 @@ const About = () => {
                 <li className="list">Pension House Ministries, Accra</li>
               </ul>
             </div>
-            <div className="col-xs-6 col-sm-6 col-md-6 Thumbnail">
+            <div className="col-xs-12 col-sm-12 col-md-6 Thumbnail">
               <h3 style={{ textAlign: `center`, paddingTop: `20px` }}>
                 Our<span style={{ color: `blueviolet` }}> CEO</span>
               </h3>
-              <img src={pic10} alt="CEO" className="picture" />
+              <img
+                src={pic10}
+                alt="CEO"
+                className="picture"
+                data-aos="zoom-in-left"
+              />
             </div>
           </div>
         </div>
