@@ -15,9 +15,9 @@
 .sub-topic {
   color: aqua;
 }
-.img {
-  height: 330px;
-  box-sizing: inherit;
+.Usimg {
+  height: 400px;
+  width: 400px;
   margin-top: 30px;
   padding: 20px;
 }
@@ -38,15 +38,16 @@
     background-color: blueviolet;
     padding: 20px;
   }
-
-  .imgs {
-    margin-right: 30px;
+  .aboutUs {
+    display: inline-block;
   }
-  .img {
-    height: 180px;
+
+  .Usimg {
+    height: 300px;
+    width: 340px;
     padding: 30px;
     box-sizing: none;
-    margin-top: 90%;
+    margin-top: none;
   }
   .text {
     color: wheat;
